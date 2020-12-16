@@ -5,9 +5,17 @@
         "bramus/router": "~1.5",
         "aethletic/php-container": "^0.0.1",
         "illuminate/view": "^8.19",
-        "jenssegers/blade": "^1.4"
+        "jenssegers/blade": "^1.4",
+        "josantonius/session": "^1.1",
+        "phpgt/cookie": "^1.0",
+        "monolog/monolog": "^2.2"
     },
     "require-dev": {
         "symfony/var-dumper": "^5.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
     }
 }
