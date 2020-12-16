@@ -1,0 +1,13 @@
+{
+    "require": {
+        "illuminate/database": "^8.19",
+        "laravel/helpers": "^1.4",
+        "bramus/router": "~1.5",
+        "aethletic/php-container": "^0.0.1",
+        "illuminate/view": "^8.19",
+        "jenssegers/blade": "^1.4"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.2"
+    }
+}
