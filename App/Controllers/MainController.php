@@ -3,12 +3,14 @@
 namespace App\Controllers;
 
 use App\Core\Controller;
+use Container\Container as App;
+use Symfony\Component\HttpFoundation\Request;
+use Symfony\Component\HttpFoundation\Response;
 
-class MainController// extends Controller
+class MainController extends Controller
 {
-    public static function index()
+    public function index(Request $request, Response $response)
     {
-        dd('asd');
-        // $this->app->render('pages/index');
+        App::render('pages/index');
     }
 }

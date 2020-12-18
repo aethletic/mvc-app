@@ -1,6 +1,6 @@
 <?php
 
-use Bramus\Router\Router;
+use Buki\Router\Router;
 use Jenssegers\Blade\Blade;
 use Josantonius\Session\Session;
 use Gt\Cookie\CookieHandler;
@@ -61,8 +61,19 @@ $app->mapOnce('logger', function () {
 });
 
 /** router */
-$app->mapOnce('router', fn () => new Router());
-$app->router()->setNamespace('\App\Controllers');
+$app->mapOnce('router', fn () => new Router([
+    'base_folder' => __DIR__,
+    'main_method ' => 'index',
+    'paths' => [
+        'controllers' => '/app/Controllers',
+        'middlewares' => '/app/Middlewares',
+    ],
+    'namespaces' => [
+        'controllers' => '\App\Controllers',
+        'middlewares' => '\App\Middlewares',
+    ]
+]));
+// $app->router()->setNamespace('\App\Controllers');
 $app->map('run', fn () => $app->router()->run());
 
 require __DIR__ . '/routes/web.php';

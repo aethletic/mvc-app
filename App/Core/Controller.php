@@ -8,9 +8,8 @@ class Controller
 {
     protected $app;
 
-    public function __call($method, $parameters)
+    public function __construct()
     {
         $this->app = App::getInstance();
-        call_user_func_array($this->{$method}, $parameters);
     }
 }
