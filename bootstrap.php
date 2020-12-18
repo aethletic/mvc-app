@@ -73,7 +73,7 @@ $app->mapOnce('router', fn () => new Router([
         'middlewares' => '\App\Middlewares',
     ]
 ]));
-// $app->router()->setNamespace('\App\Controllers');
+
 $app->map('run', fn () => $app->router()->run());
 
 require __DIR__ . '/routes/web.php';
