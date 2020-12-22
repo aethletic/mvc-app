@@ -1,9 +1,9 @@
 module.exports = {
   purge: {
-    // enabled: false,
     content: [
-      '.resources/views/pages/*.php',
-      '.resources/assets/app.js',
+      './resources/views/**/*.php',
+      './resources/assets/app.js',
+      './resources/assets/app.scss',
     ]
   },
   darkMode: false, // or 'media' or 'class'

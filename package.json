@@ -6,6 +6,7 @@
   "dependencies": {
     "autoprefixer": "^10.1.0",
     "clean-webpack-plugin": "^3.0.0",
+    "cross-env": "^7.0.3",
     "css-loader": "^5.0.1",
     "html-webpack-plugin": "^4.5.0",
     "jquery": "^3.5.1",
@@ -26,7 +27,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch": "webpack --watch --config webpack.dev.js",
     "dev": "webpack --config webpack.dev.js",
-    "prod": "NODE_ENV=production && webpack --config webpack.prod.js"
+    "prod": "cross-env NODE_ENV=production webpack --config webpack.prod.js"
   },
   "repository": {
     "type": "git",
