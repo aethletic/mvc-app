@@ -15,6 +15,10 @@ composer install
 ```
 
 ```bash
+npm install
+```
+
+```bash
 npm run dev
 ```
 
