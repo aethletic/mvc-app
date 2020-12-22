@@ -30,7 +30,7 @@ $app->session()->init(strtotime("+1 day"));
 /** cookie */
 $app->mapOnce('cookie', new CookieHandler($_COOKIE));
 
-/** vievs */
+/** views */
 $viewConfig = require __DIR__ . '/config/view.php';
 $app->mapOnce('view', new Blade($viewConfig['templates_dir'], $viewConfig['cache_dir']));
 
