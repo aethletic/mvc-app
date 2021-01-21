@@ -3,11 +3,11 @@
 ## Installation
 
 ```bash
-git clone https://github.com/chipslays/mvc-app.git
+git clone https://github.com/chipslays/mvc-app.git my-project
 ```
 
 ```bash
-cd mvc-app
+cd my-project
 ```
 
 ```bash
