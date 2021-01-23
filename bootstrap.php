@@ -52,6 +52,13 @@ $app->mapOnce('db', function () use ($app) {
     return $capsule;
 });
 
+/** memcached */
+$app->mapOnce('cache', function () use ($app) {
+    $cache = new Memcached;
+    $cache->addServer('localhost', '11211');
+    return $cache;
+});
+
 /** logger */
 $app->mapOnce('logger', function () {
     $logConfig = require __DIR__ . '/config/log.php';
