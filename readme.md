@@ -1,13 +1,31 @@
 # Web App Skeleton (MVC)
 
+A simple skeleton with the necessary set of tools for a quick start.
+
+## Use cases
+When big daddies like Laravel, Symphony, etc. are out of place because need to make a quick simple app/prototype.
+
+## Features
+* Back-end
+  * Laravel Database
+  * Laravel Helpers
+  * Laravel Blade
+  * Monolog
+  * Symfony Http Foundation
+  * Bramus Router (modified)
+* Front-end
+  * Tailwind CSS 2.0 out the box
+  * jQuery
+  * Alpine.js
+
 ## Installation
 
 ```bash
-git clone https://github.com/chipslays/mvc-app.git my-project
+git clone https://github.com/chipslays/mvc-app.git blog
 ```
 
 ```bash
-cd my-project
+cd blog
 ```
 
 ```bash
@@ -35,12 +53,25 @@ npm run prod
 ```
 
 ## Development
+`/app/Controllers/*` - Controllers
 
-`/resources/assets/app.scss` - sass (scss)
+`/app/Models/` - Models
 
-`/resources/assets/app.js` - javascript
+`/bootstrap/*` - Bootstrap application pieces
 
-`/resources/views/` - views templates
+`/bootstrap.php` - Bootstrap app compose
+
+`/routes/web.php/` - Routes
+
+`/resources/assets/app.css` - CSS
+
+`/resources/assets/app.js` - Javascript
+
+`/resources/views/` - Views templates
+
+`/config/*` - Configs
+
+
 
 
 
