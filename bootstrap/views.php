@@ -11,5 +11,5 @@ $app->view()->directive('app_name', function () use ($appConfig) {
 });
 
 $app->map('render', function ($template, $params = []) use ($app) {
-    echo $app->view()->render($template, $params);
+    return $app->view()->render($template, $params);
 });

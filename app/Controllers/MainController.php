@@ -9,6 +9,6 @@ class MainController extends Controller
 {
     public static function index()
     {
-        App::render('pages/index');
+        echo App::render('pages/index');
     }
 }
