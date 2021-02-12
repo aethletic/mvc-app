@@ -7,7 +7,7 @@ use Container\Container as App;
 
 class MainController extends Controller
 {
-    public static function index()
+    public function index()
     {
         echo App::render('pages/index');
     }
