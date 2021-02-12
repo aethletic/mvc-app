@@ -8,15 +8,16 @@ When big daddies like Laravel, Symphony, etc. are out of place because need to m
 ## Features
 * Back-end
   * Laravel Database
-  * Laravel Helpers
+  * Laravel Helpers (Arr, Str, Collection)
   * Laravel Blade
   * Monolog
-  * Symfony Http Foundation
+  * Symfony Http Foundation (Request, Response, Session, Cookie, Headers)
   * Bramus Router (modified)
 * Front-end
   * Tailwind CSS 2.0 out the box
   * jQuery
   * Alpine.js
+  * Dashboard theme (WIP)
 
 ## Installation
 
