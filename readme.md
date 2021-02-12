@@ -9,7 +9,7 @@ When big daddies like Laravel, Symphony, etc. are out of place because need to m
 * Back-end
   * Laravel Database
   * Laravel Helpers (Arr, Str, Collection)
-  * Laravel Blade
+  * Laravel Blade (Standalone)
   * Monolog
   * Symfony Http Foundation (Request, Response, Session, Cookie, Headers)
   * Bramus Router (modified)
