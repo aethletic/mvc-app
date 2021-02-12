@@ -49,6 +49,14 @@ $app->mapOnce('db', function () use ($app) {
     $capsule->addConnection(require __DIR__ . '/config/database.php');
     $capsule->setAsGlobal();
     $capsule->bootEloquent();
+    return $capsule;
+});
+
+/** memcached */
+$app->mapOnce('cache', function () use ($app) {
+    $cache = new Memcached;
+    $cache->addServer('localhost', '11211');
+    return $cache;
 });
 
 /** logger */

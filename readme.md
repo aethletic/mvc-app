@@ -3,15 +3,19 @@
 ## Installation
 
 ```bash
-git clone https://github.com/aethletic/mvc-app.git
+git clone https://github.com/chipslays/mvc-app.git my-project
 ```
 
 ```bash
-cd mvc-app
+cd my-project
 ```
 
 ```bash
 composer install
+```
+
+```bash
+npm install
 ```
 
 ```bash
@@ -37,6 +41,8 @@ npm run prod
 `/resources/assets/app.js` - javascript
 
 `/resources/views/` - views templates
+
+
 
 
 
