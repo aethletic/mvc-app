@@ -53,6 +53,9 @@ npm run prod
 ```
 
 ## Development
+
+File structure Laravel flavored.
+
 `/app/Controllers/*` - Controllers
 
 `/app/Models/` - Models
