@@ -4,7 +4,7 @@
 @tailwind screens;
 
 html {
-    font-family: 'Ubuntu', sans-serif !important;
+    font-family: 'Rubik', sans-serif !important;
 }
 
 @layer base {
@@ -12,3 +12,13 @@ html {
         @apply transform transition duration-200 text-sm py-2 px-4 bg-blue-100 text-blue-500 hover:bg-blue-200 focus:ring-4 focus:ring-gray-100 font-bold rounded-md;
     }
 }
+
+@variants dark {
+    .navbar {
+        z-index: 1;
+        background: rgba(17, 24, 39, 0.6) !important;
+        backdrop-filter: blur(10px) saturate(125%);
+        -webkit-backdrop-filter: blur(10px) saturate(125%);
+    }
+}
+

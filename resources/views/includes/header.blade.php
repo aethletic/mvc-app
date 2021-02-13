@@ -1,18 +1,20 @@
-<div class="h-16 py-5 border-b w-full hidden md:block">
-    <div class="my-auto mx-3">
-
-        {{-- Left Side --}}
-        <div class="float-left">
-            
+<div
+    class="h-16 py-5 border-b dark:border-gray-800 left-0 w-full hidden md:block navbar dark:navbar fixed z-10">
+    
+        <div class="float-right mr-4">
+            <a href="#"
+                class="btn-blue font-medium text-center bg-transparent border border-blue-500  hover:text-white hover:bg-blue-500">Войти</a>
         </div>
 
-        {{-- End Left Side --}}
-
-        {{-- Right Side --}}
-        <div class="float-right">
-            <a href="#" class="btn-blue">Login</a>
+        <div id="theme" class="float-right mr-4">
+            <div class="transform transition duration-200 w-8 h-8 hover:bg-black hover:bg-opacity-40 text-yellow-300 cursor-pointer rounded-md  icon-middle -mt-1">
+                <svg class="sun hidden w-5 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M12 3v1m0 16v1m9-9h-1M4 12H3m15.364 6.364l-.707-.707M6.343 6.343l-.707-.707m12.728 0l-.707.707M6.343 17.657l-.707.707M16 12a4 4 0 11-8 0 4 4 0 018 0z">
+                    </path>
+                </svg>
+                <svg class="moon hidden w-5 h-6 mx-auto" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z"></path></svg>
+            </div>
         </div>
-        {{-- End Right Side --}}
-
-    </div>
 </div>
