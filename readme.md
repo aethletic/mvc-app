@@ -3,7 +3,7 @@
 A simple skeleton with the necessary set of tools for a quick start.
 
 ## Use cases
-When big daddies like Laravel, Symphony, etc. are out of place because need to make a quick simple app/prototype.
+When big daddies like Laravel, Symfony, etc. are out of place because need to make a quick simple app/prototype.
 
 ## Features
 * Back-end
