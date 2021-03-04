@@ -11,7 +11,7 @@ When big daddies like Laravel, Symfony, etc. are out of place because need to ma
   * Laravel Helpers (Arr, Str, Collection)
   * Laravel Blade (Standalone)
   * Monolog
-  * Symfony Http Foundation (Request, Response, Session, Cookie, Headers)
+  * Symfony HttpFoundation component (Request, Response, Session, Cookie, Headers)
   * Bramus Router (modified)
 * Front-end
   * Tailwind CSS 2.0 out the box
