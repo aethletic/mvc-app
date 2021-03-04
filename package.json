@@ -32,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/aethletic/mvc-app.git"
+    "url": "git+https://github.com/chipslays/mvc-app.git"
   },
   "author": "chipslays",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/aethletic/mvc-app/issues"
+    "url": "https://github.com/chipslays/mvc-app/issues"
   },
-  "homepage": "https://github.com/aethletic/mvc-app#readme"
+  "homepage": "https://github.com/chipslays/mvc-app#readme"
 }
