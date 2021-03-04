@@ -15,6 +15,7 @@ require __DIR__ . '/bootstrap/views.php';
 require __DIR__ . '/bootstrap/database.php';
 require __DIR__ . '/bootstrap/logger.php';
 require __DIR__ . '/bootstrap/http.php';
+require __DIR__ . '/bootstrap/helpers.php';
 require __DIR__ . '/bootstrap/router.php';
 require __DIR__ . '/routes/web.php';
 
